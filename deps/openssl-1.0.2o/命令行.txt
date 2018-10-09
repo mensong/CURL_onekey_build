@@ -1,0 +1,28 @@
+在vs编译环境下：
+查看支持的系统：perl Configure
+cd进openssl目录下
+
+Release:
+32位
+perl Configure VC-WIN32 no-asm --prefix=%CD%\out
+ms\do_ms
+
+64位
+perl Configure VC-WIN64A no-asm --prefix=%CD%\out
+ms\do_win64a
+
+
+Debug:
+32位
+perl Configure debug-VC-WIN32 no-asm --prefix=%CD%\out
+ms\do_ms
+
+64位
+perl Configure debug-VC-WIN64A no-asm --prefix=%CD%\out
+ms\do_win64a
+
+
+
+nmake -f ms\nt.mak
+nmake -f ms\nt.mak install
+nmake -f ms\nt.mak clean

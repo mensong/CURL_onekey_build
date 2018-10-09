@@ -1,0 +1,4 @@
+要想编译MT库，必需使用CMake编译。
+
+链接的输入项除了必要的外，还需要加入：Ws2_32.lib;Wldap32.lib
+预处理器：CURL_STATICLIB

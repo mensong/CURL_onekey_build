@@ -1,0 +1,5 @@
+﻿  Generating tool_hugehelp.c
+  Building Custom Rule D:/curl/curl-7.60.0/src/CMakeLists.txt
+  CMake is re-running because D:/curl/curl-7.60.0/build_x86/src/CMakeFiles/generate.stamp dependency file is missing.
+CUSTOMBUILD : CMake error : The source directory "D:/curl/curl-7.60.0" does not appear to contain CMakeLists.txt.
+  Specify --help for usage, or press the help button on the CMake GUI.

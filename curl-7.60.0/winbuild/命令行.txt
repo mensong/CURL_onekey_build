@@ -1,0 +1,18 @@
+Release:
+x86：
+copy /Y ..\..\deps\lib\x86\Release\*.* ..\..\deps\lib\
+nmake /f Makefile.vc mode=static RTLIBCFG=static MACHINE=x86 ENABLE_WINSSL=no ENABLE_IDN=no ENABLE_SSPI=no DEBUG=no WITH_SSL=static WITH_ZLIB=static SSL_PATH=..\..\deps\lib\x86 ZLIB_PATH=..\..\deps\lib\x86
+
+x64：
+copy /Y ..\..\deps\lib\x64\Release\*.* ..\..\deps\lib\
+nmake /f Makefile64.vc mode=static RTLIBCFG=static MACHINE=x64 ENABLE_WINSSL=no ENABLE_IDN=no ENABLE_SSPI=no DEBUG=no WITH_SSL=static WITH_ZLIB=static SSL_PATH=..\..\deps\lib\x64 ZLIB_PATH=..\..\deps\lib\x64
+
+
+Debug:
+x86：
+copy /Y ..\..\deps\lib\x86\Debug\*.* ..\..\deps\lib\
+nmake /f Makefile.vc mode=static RTLIBCFG=static MACHINE=x86 ENABLE_WINSSL=no ENABLE_IDN=no ENABLE_SSPI=no DEBUG=yes WITH_SSL=static WITH_ZLIB=static SSL_PATH=..\..\deps\lib\x86 ZLIB_PATH=..\..\deps\lib\x86
+
+x64：
+copy /Y ..\..\deps\lib\x64\Debug\*.* ..\..\deps\lib\
+nmake /f Makefile64.vc mode=static RTLIBCFG=static MACHINE=x64 ENABLE_WINSSL=no ENABLE_IDN=no ENABLE_SSPI=no DEBUG=yes WITH_SSL=static WITH_ZLIB=static SSL_PATH=..\..\deps\lib\x64 ZLIB_PATH=..\..\deps\lib\x64

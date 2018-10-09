@@ -1,0 +1,3323 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_93570.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:40:35。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_93570.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_93570.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_93570.dir\Debug\cmTC_93570.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_93570.dir\Debug\cmTC_93570.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_93570.dir\Debug\\" /Fd"cmTC_93570.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_93570.dir\Debug\\" /Fd"cmTC_93570.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_93570.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_93570.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_93570.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_93570.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.22
+
+
+Determining if files ;winldap.h exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b88ea.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:40:37。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b88ea.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_b88ea.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_b88ea.dir\Debug\cmTC_b88ea.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_b88ea.dir\Debug\cmTC_b88ea.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b88ea.dir\Debug\\" /Fd"cmTC_b88ea.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_WINLDAP_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b88ea.dir\Debug\\" /Fd"cmTC_b88ea.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_WINLDAP_H.c"
+  
+  HAVE_WINLDAP_H.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winnt.h(154): fatal error C1189: #error:  "No Target Architecture" [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b88ea.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b88ea.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b88ea.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winnt.h(154): fatal error C1189: #error:  "No Target Architecture" [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b88ea.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.24
+
+Source:
+/* */
+#include <winldap.h>
+
+
+int main(void){return 0;}
+
+Determining if files ;winber.h exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_10665.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:40:37。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_10665.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_10665.dir\Debug\cmTC_10665.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_10665.dir\Debug\cmTC_10665.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_10665.dir\Debug\\" /Fd"cmTC_10665.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_WINBER_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_10665.dir\Debug\\" /Fd"cmTC_10665.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_WINBER_H.c"
+  
+  HAVE_WINBER_H.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(67): error C2061: 语法错误: 标识符“BerElement” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(67): error C2059: 语法错误:“;” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(67): error C2143: 语法错误: 缺少“)”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(67): error C2143: 语法错误: 缺少“{”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(67): error C2059: 语法错误:“)” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(76): error C2061: 语法错误: 标识符“VOID” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(76): error C2059: 语法错误:“;” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(76): error C2143: 语法错误: 缺少“)”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(76): error C2143: 语法错误: 缺少“{”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(76): error C2146: 语法错误: 缺少“;”(在标识符“fbuf”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(76): error C2059: 语法错误:“)” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(84): error C2061: 语法错误: 标识符“VOID” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(84): error C2059: 语法错误:“;” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(84): error C2143: 语法错误: 缺少“)”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(84): error C2143: 语法错误: 缺少“{”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(84): error C2059: 语法错误:“)” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(91): error C2061: 语法错误: 标识符“VOID” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(91): error C2059: 语法错误:“;” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(91): error C2143: 语法错误: 缺少“)”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(91): error C2143: 语法错误: 缺少“{”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(91): error C2059: 语法错误:“)” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(97): error C2061: 语法错误: 标识符“BERVAL” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(97): error C2059: 语法错误:“;” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(97): error C2143: 语法错误: 缺少“)”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(97): error C2143: 语法错误: 缺少“{”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(97): error C2059: 语法错误:“)” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(108): error C2061: 语法错误: 标识符“BerElement” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(108): error C2059: 语法错误:“;” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(108): error C2146: 语法错误: 缺少“)”(在标识符“options”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(108): error C2061: 语法错误: 标识符“options” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(108): error C2059: 语法错误:“)” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(124): error C2061: 语法错误: 标识符“ULONG” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(124): error C2059: 语法错误:“;” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(124): error C2143: 语法错误: 缺少“)”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(124): error C2143: 语法错误: 缺少“{”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(124): error C2143: 语法错误: 缺少“;”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(124): error C2059: 语法错误:“)” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(135): error C2061: 语法错误: 标识符“ULONG” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(135): error C2059: 语法错误:“;” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(135): error C2143: 语法错误: 缺少“)”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(135): error C2143: 语法错误: 缺少“{”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(135): error C2143: 语法错误: 缺少“;”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(135): error C2059: 语法错误:“)” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(146): error C2061: 语法错误: 标识符“ULONG” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(146): error C2059: 语法错误:“;” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(146): error C2143: 语法错误: 缺少“)”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(146): error C2143: 语法错误: 缺少“{”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(146): error C2143: 语法错误: 缺少“;”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(146): error C2146: 语法错误: 缺少“;”(在标识符“CHAR”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(146): error C2059: 语法错误:“)” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(156): error C2061: 语法错误: 标识符“ULONG” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(156): error C2059: 语法错误:“;” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(156): error C2143: 语法错误: 缺少“)”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(156): error C2143: 语法错误: 缺少“{”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(156): error C2143: 语法错误: 缺少“;”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(156): error C2146: 语法错误: 缺少“;”(在标识符“CHAR”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(156): error C2059: 语法错误:“)” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(165): error C2061: 语法错误: 标识符“INT” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(165): error C2059: 语法错误:“;” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(165): error C2143: 语法错误: 缺少“)”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(165): error C2143: 语法错误: 缺少“{”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(165): error C2143: 语法错误: 缺少“;”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(165): error C2059: 语法错误:“)” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(248): error C2061: 语法错误: 标识符“INT” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(248): error C2059: 语法错误:“;” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(248): error C2143: 语法错误: 缺少“)”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(248): error C2143: 语法错误: 缺少“{”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(248): error C2146: 语法错误: 缺少“;”(在标识符“PSTR”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(248): error C2061: 语法错误: 标识符“fmt” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(248): error C2059: 语法错误:“,” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(248): error C2059: 语法错误:“)” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(340): error C2061: 语法错误: 标识符“ULONG” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(340): error C2059: 语法错误:“;” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(340): error C2143: 语法错误: 缺少“)”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(340): error C2143: 语法错误: 缺少“{”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(340): error C2146: 语法错误: 缺少“;”(在标识符“PSTR”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(340): error C2061: 语法错误: 标识符“fmt” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(340): error C2059: 语法错误:“,” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(340): error C2059: 语法错误:“)” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(67): error C2061: 语法错误: 标识符“BerElement” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(67): error C2059: 语法错误:“;” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(67): error C2143: 语法错误: 缺少“)”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(67): error C2143: 语法错误: 缺少“{”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(67): error C2059: 语法错误:“)” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(76): error C2061: 语法错误: 标识符“VOID” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(76): error C2059: 语法错误:“;” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(76): error C2143: 语法错误: 缺少“)”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(76): error C2143: 语法错误: 缺少“{”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(76): error C2146: 语法错误: 缺少“;”(在标识符“fbuf”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(76): error C2059: 语法错误:“)” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(84): error C2061: 语法错误: 标识符“VOID” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(84): error C2059: 语法错误:“;” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(84): error C2143: 语法错误: 缺少“)”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(84): error C2143: 语法错误: 缺少“{”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(84): error C2059: 语法错误:“)” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(91): error C2061: 语法错误: 标识符“VOID” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(91): error C2059: 语法错误:“;” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(91): error C2143: 语法错误: 缺少“)”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(91): error C2143: 语法错误: 缺少“{”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(91): error C2059: 语法错误:“)” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(97): error C2061: 语法错误: 标识符“BERVAL” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(97): error C2059: 语法错误:“;” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(97): error C2143: 语法错误: 缺少“)”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(97): error C2143: 语法错误: 缺少“{”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(97): error C2059: 语法错误:“)” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(108): error C2061: 语法错误: 标识符“BerElement” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(108): error C2059: 语法错误:“;” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(108): error C2146: 语法错误: 缺少“)”(在标识符“options”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(108): error C2061: 语法错误: 标识符“options” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(108): error C2059: 语法错误:“)” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(124): error C2061: 语法错误: 标识符“ULONG” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(124): error C2059: 语法错误:“;” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(124): error C2143: 语法错误: 缺少“)”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(124): error C2143: 语法错误: 缺少“{”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(124): error C2143: 语法错误: 缺少“;”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(124): error C2059: 语法错误:“)” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(135): error C2061: 语法错误: 标识符“ULONG” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(135): error C2059: 语法错误:“;” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(135): error C2143: 语法错误: 缺少“)”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(135): error C2143: 语法错误: 缺少“{”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(135): error C2143: 语法错误: 缺少“;”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(135): error C2059: 语法错误:“)” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(146): error C2061: 语法错误: 标识符“ULONG” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(146): error C2059: 语法错误:“;” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(146): error C2143: 语法错误: 缺少“)”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(146): error C2143: 语法错误: 缺少“{”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(146): error C2143: 语法错误: 缺少“;”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(146): error C2146: 语法错误: 缺少“;”(在标识符“CHAR”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(146): error C2059: 语法错误:“)” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(156): error C2061: 语法错误: 标识符“ULONG” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(156): error C2059: 语法错误:“;” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(156): error C2143: 语法错误: 缺少“)”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(156): error C2143: 语法错误: 缺少“{”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(156): error C2143: 语法错误: 缺少“;”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(156): error C2146: 语法错误: 缺少“;”(在标识符“CHAR”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(156): error C2059: 语法错误:“)” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(165): error C2061: 语法错误: 标识符“INT” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(165): error C2059: 语法错误:“;” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(165): error C2143: 语法错误: 缺少“)”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(165): error C2143: 语法错误: 缺少“{”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(165): error C2143: 语法错误: 缺少“;”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(165): error C2059: 语法错误:“)” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(248): error C2061: 语法错误: 标识符“INT” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(248): error C2059: 语法错误:“;” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(248): error C2143: 语法错误: 缺少“)”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(248): error C2143: 语法错误: 缺少“{”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(248): error C2146: 语法错误: 缺少“;”(在标识符“PSTR”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(248): error C2061: 语法错误: 标识符“fmt” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(248): error C2059: 语法错误:“,” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(248): error C2059: 语法错误:“)” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(340): error C2061: 语法错误: 标识符“ULONG” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(340): error C2059: 语法错误:“;” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(340): error C2143: 语法错误: 缺少“)”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(340): error C2143: 语法错误: 缺少“{”(在“*”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(340): error C2146: 语法错误: 缺少“;”(在标识符“PSTR”的前面) [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(340): error C2061: 语法错误: 标识符“fmt” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(340): error C2059: 语法错误:“,” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winber.h(340): error C2059: 语法错误:“)” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_10665.vcxproj]
+
+    0 个警告
+    79 个错误
+
+已用时间 00:00:00.24
+
+Source:
+/* */
+#include <winber.h>
+
+
+int main(void){return 0;}
+
+Determining if files ;ldap_ssl.h exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_cf229.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:40:37。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_cf229.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_cf229.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_cf229.dir\Debug\cmTC_cf229.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_cf229.dir\Debug\cmTC_cf229.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cf229.dir\Debug\\" /Fd"cmTC_cf229.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_LDAP_SSL_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cf229.dir\Debug\\" /Fd"cmTC_cf229.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_LDAP_SSL_H.c"
+  
+  HAVE_LDAP_SSL_H.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_LDAP_SSL_H.c(2): fatal error C1083: 无法打开包括文件: “ldap_ssl.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_cf229.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_cf229.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_cf229.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_LDAP_SSL_H.c(2): fatal error C1083: 无法打开包括文件: “ldap_ssl.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_cf229.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.24
+
+Source:
+/* */
+#include <ldap_ssl.h>
+
+
+int main(void){return 0;}
+
+Determining if files ;ldapssl.h exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b30ce.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:40:38。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b30ce.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_b30ce.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_b30ce.dir\Debug\cmTC_b30ce.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_b30ce.dir\Debug\cmTC_b30ce.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b30ce.dir\Debug\\" /Fd"cmTC_b30ce.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_LDAPSSL_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b30ce.dir\Debug\\" /Fd"cmTC_b30ce.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_LDAPSSL_H.c"
+  
+  HAVE_LDAPSSL_H.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_LDAPSSL_H.c(2): fatal error C1083: 无法打开包括文件: “ldapssl.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b30ce.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b30ce.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b30ce.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_LDAPSSL_H.c(2): fatal error C1083: 无法打开包括文件: “ldapssl.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b30ce.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.24
+
+Source:
+/* */
+#include <ldapssl.h>
+
+
+int main(void){return 0;}
+
+Determining if the function idn2_lookup_ul exists in the idn2;wldap32;winmm;ws2_32;advapi32 failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_91da2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:40:38。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_91da2.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_91da2.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_91da2.dir\Debug\cmTC_91da2.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_91da2.dir\Debug\cmTC_91da2.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=idn2_lookup_ul /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_91da2.dir\Debug\\" /Fd"cmTC_91da2.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\Program Files\CMake\share\cmake-3.11\Modules\CheckFunctionExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=idn2_lookup_ul /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_91da2.dir\Debug\\" /Fd"cmTC_91da2.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\Program Files\CMake\share\cmake-3.11\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\cmTC_91da2.exe" /INCREMENTAL /NOLOGO idn2.lib wldap32.lib winmm.lib ws2_32.lib advapi32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp/Debug/cmTC_91da2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp/Debug/cmTC_91da2.lib" /MACHINE:X64  /machine:x64 cmTC_91da2.dir\Debug\CheckFunctionExists.obj
+LINK : fatal error LNK1104: 无法打开文件“idn2.lib” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_91da2.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_91da2.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_91da2.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  LINK : fatal error LNK1104: 无法打开文件“idn2.lib” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_91da2.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.26
+
+
+Performing C SOURCE FILE Test USE_UNIX_SOCKETS failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_adeb4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:40:39。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_adeb4.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_adeb4.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_adeb4.dir\Debug\cmTC_adeb4.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_adeb4.dir\Debug\cmTC_adeb4.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D USE_UNIX_SOCKETS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_adeb4.dir\Debug\\" /Fd"cmTC_adeb4.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\src.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D USE_UNIX_SOCKETS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_adeb4.dir\Debug\\" /Fd"cmTC_adeb4.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\src.c(2): fatal error C1083: 无法打开包括文件: “sys/un.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_adeb4.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_adeb4.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_adeb4.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\src.c(2): fatal error C1083: 无法打开包括文件: “sys/un.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_adeb4.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.21
+
+Source file was:
+
+#include <sys/un.h>
+
+int main()
+{
+   (void)sizeof(((struct sockaddr_un *)0)->sun_path);
+   return 0;
+}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/filio.h exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e822e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:40:43。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_e822e.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_e822e.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_e822e.dir\Debug\cmTC_e822e.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_e822e.dir\Debug\cmTC_e822e.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e822e.dir\Debug\\" /Fd"cmTC_e822e.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_FILIO_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e822e.dir\Debug\\" /Fd"cmTC_e822e.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_FILIO_H.c"
+  
+  HAVE_SYS_FILIO_H.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_FILIO_H.c(7): fatal error C1083: 无法打开包括文件: “sys/filio.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_e822e.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_e822e.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_e822e.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_FILIO_H.c(7): fatal error C1083: 无法打开包括文件: “sys/filio.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_e822e.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.42
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/filio.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/ioctl.h exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_cc66d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:40:43。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_cc66d.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_cc66d.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_cc66d.dir\Debug\cmTC_cc66d.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_cc66d.dir\Debug\cmTC_cc66d.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cc66d.dir\Debug\\" /Fd"cmTC_cc66d.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cc66d.dir\Debug\\" /Fd"cmTC_cc66d.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c"
+  
+  HAVE_SYS_IOCTL_H.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c(7): fatal error C1083: 无法打开包括文件: “sys/ioctl.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_cc66d.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_cc66d.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_cc66d.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c(7): fatal error C1083: 无法打开包括文件: “sys/ioctl.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_cc66d.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.38
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/ioctl.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/resource.h exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_eb455.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:40:44。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_eb455.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_eb455.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_eb455.dir\Debug\cmTC_eb455.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_eb455.dir\Debug\cmTC_eb455.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eb455.dir\Debug\\" /Fd"cmTC_eb455.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_RESOURCE_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eb455.dir\Debug\\" /Fd"cmTC_eb455.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_RESOURCE_H.c"
+  
+  HAVE_SYS_RESOURCE_H.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_RESOURCE_H.c(7): fatal error C1083: 无法打开包括文件: “sys/resource.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_eb455.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_eb455.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_eb455.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_RESOURCE_H.c(7): fatal error C1083: 无法打开包括文件: “sys/resource.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_eb455.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.38
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/resource.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/uio.h exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_7216a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:40:44。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_7216a.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_7216a.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_7216a.dir\Debug\cmTC_7216a.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_7216a.dir\Debug\cmTC_7216a.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7216a.dir\Debug\\" /Fd"cmTC_7216a.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7216a.dir\Debug\\" /Fd"cmTC_7216a.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c"
+  
+  HAVE_SYS_UIO_H.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c(9): fatal error C1083: 无法打开包括文件: “sys/uio.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_7216a.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_7216a.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_7216a.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c(9): fatal error C1083: 无法打开包括文件: “sys/uio.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_7216a.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.39
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/un.h exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_d60e9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:40:45。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_d60e9.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_d60e9.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_d60e9.dir\Debug\cmTC_d60e9.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_d60e9.dir\Debug\cmTC_d60e9.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d60e9.dir\Debug\\" /Fd"cmTC_d60e9.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UN_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d60e9.dir\Debug\\" /Fd"cmTC_d60e9.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UN_H.c"
+  
+  HAVE_SYS_UN_H.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UN_H.c(9): fatal error C1083: 无法打开包括文件: “sys/un.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_d60e9.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_d60e9.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_d60e9.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UN_H.c(9): fatal error C1083: 无法打开包括文件: “sys/un.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_d60e9.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.43
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/un.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;sys/xattr.h exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_49b20.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:40:45。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_49b20.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_49b20.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_49b20.dir\Debug\cmTC_49b20.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_49b20.dir\Debug\cmTC_49b20.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_49b20.dir\Debug\\" /Fd"cmTC_49b20.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_XATTR_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_49b20.dir\Debug\\" /Fd"cmTC_49b20.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_XATTR_H.c"
+  
+  HAVE_SYS_XATTR_H.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_XATTR_H.c(10): fatal error C1083: 无法打开包括文件: “sys/xattr.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_49b20.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_49b20.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_49b20.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_XATTR_H.c(10): fatal error C1083: 无法打开包括文件: “sys/xattr.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_49b20.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.45
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <sys/xattr.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;arpa/tftp.h exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f7c5d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:40:46。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_f7c5d.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_f7c5d.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_f7c5d.dir\Debug\cmTC_f7c5d.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_f7c5d.dir\Debug\cmTC_f7c5d.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f7c5d.dir\Debug\\" /Fd"cmTC_f7c5d.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_TFTP_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f7c5d.dir\Debug\\" /Fd"cmTC_f7c5d.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_TFTP_H.c"
+  
+  HAVE_ARPA_TFTP_H.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_TFTP_H.c(10): fatal error C1083: 无法打开包括文件: “arpa/tftp.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_f7c5d.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_f7c5d.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_f7c5d.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_TFTP_H.c(10): fatal error C1083: 无法打开包括文件: “arpa/tftp.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_f7c5d.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.43
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <arpa/tftp.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;crypto.h exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_6ded0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:40:47。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_6ded0.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_6ded0.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_6ded0.dir\Debug\cmTC_6ded0.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_6ded0.dir\Debug\cmTC_6ded0.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6ded0.dir\Debug\\" /Fd"cmTC_6ded0.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_CRYPTO_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6ded0.dir\Debug\\" /Fd"cmTC_6ded0.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_CRYPTO_H.c"
+  
+  HAVE_CRYPTO_H.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_CRYPTO_H.c(11): fatal error C1083: 无法打开包括文件: “crypto.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_6ded0.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_6ded0.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_6ded0.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_CRYPTO_H.c(11): fatal error C1083: 无法打开包括文件: “crypto.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_6ded0.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.41
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <crypto.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;des.h exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_2ad9c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:40:48。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_2ad9c.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_2ad9c.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_2ad9c.dir\Debug\cmTC_2ad9c.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_2ad9c.dir\Debug\cmTC_2ad9c.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2ad9c.dir\Debug\\" /Fd"cmTC_2ad9c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_DES_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2ad9c.dir\Debug\\" /Fd"cmTC_2ad9c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_DES_H.c"
+  
+  HAVE_DES_H.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_DES_H.c(11): fatal error C1083: 无法打开包括文件: “des.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_2ad9c.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_2ad9c.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_2ad9c.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_DES_H.c(11): fatal error C1083: 无法打开包括文件: “des.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_2ad9c.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.42
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <des.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;err.h exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_7d65d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:40:48。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_7d65d.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_7d65d.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_7d65d.dir\Debug\cmTC_7d65d.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_7d65d.dir\Debug\cmTC_7d65d.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7d65d.dir\Debug\\" /Fd"cmTC_7d65d.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_ERR_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7d65d.dir\Debug\\" /Fd"cmTC_7d65d.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_ERR_H.c"
+  
+  HAVE_ERR_H.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_ERR_H.c(11): fatal error C1083: 无法打开包括文件: “err.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_7d65d.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_7d65d.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_7d65d.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_ERR_H.c(11): fatal error C1083: 无法打开包括文件: “err.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_7d65d.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.39
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <err.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;idn2.h exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_0affe.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:40:49。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_0affe.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_0affe.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_0affe.dir\Debug\cmTC_0affe.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_0affe.dir\Debug\cmTC_0affe.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0affe.dir\Debug\\" /Fd"cmTC_0affe.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_IDN2_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0affe.dir\Debug\\" /Fd"cmTC_0affe.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_IDN2_H.c"
+  
+  HAVE_IDN2_H.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_IDN2_H.c(13): fatal error C1083: 无法打开包括文件: “idn2.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_0affe.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_0affe.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_0affe.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_IDN2_H.c(13): fatal error C1083: 无法打开包括文件: “idn2.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_0affe.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.38
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <idn2.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;ifaddrs.h exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_763b3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:40:50。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_763b3.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_763b3.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_763b3.dir\Debug\cmTC_763b3.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_763b3.dir\Debug\cmTC_763b3.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_763b3.dir\Debug\\" /Fd"cmTC_763b3.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_IFADDRS_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_763b3.dir\Debug\\" /Fd"cmTC_763b3.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_IFADDRS_H.c"
+  
+  HAVE_IFADDRS_H.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_IFADDRS_H.c(13): fatal error C1083: 无法打开包括文件: “ifaddrs.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_763b3.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_763b3.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_763b3.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_IFADDRS_H.c(13): fatal error C1083: 无法打开包括文件: “ifaddrs.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_763b3.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.42
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;krb.h exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_3139e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:40:51。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_3139e.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_3139e.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_3139e.dir\Debug\cmTC_3139e.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_3139e.dir\Debug\cmTC_3139e.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3139e.dir\Debug\\" /Fd"cmTC_3139e.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_KRB_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3139e.dir\Debug\\" /Fd"cmTC_3139e.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_KRB_H.c"
+  
+  HAVE_KRB_H.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_KRB_H.c(14): fatal error C1083: 无法打开包括文件: “krb.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_3139e.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_3139e.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_3139e.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_KRB_H.c(14): fatal error C1083: 无法打开包括文件: “krb.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_3139e.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.38
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <krb.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;libgen.h exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_8f41a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:40:51。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_8f41a.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_8f41a.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_8f41a.dir\Debug\cmTC_8f41a.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_8f41a.dir\Debug\cmTC_8f41a.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8f41a.dir\Debug\\" /Fd"cmTC_8f41a.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_LIBGEN_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8f41a.dir\Debug\\" /Fd"cmTC_8f41a.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_LIBGEN_H.c"
+  
+  HAVE_LIBGEN_H.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_LIBGEN_H.c(14): fatal error C1083: 无法打开包括文件: “libgen.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_8f41a.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_8f41a.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_8f41a.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_LIBGEN_H.c(14): fatal error C1083: 无法打开包括文件: “libgen.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_8f41a.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.39
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;netinet/tcp.h exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_da928.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:40:52。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_da928.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_da928.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_da928.dir\Debug\cmTC_da928.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_da928.dir\Debug\cmTC_da928.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_da928.dir\Debug\\" /Fd"cmTC_da928.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_da928.dir\Debug\\" /Fd"cmTC_da928.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c"
+  
+  HAVE_NETINET_TCP_H.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c(15): fatal error C1083: 无法打开包括文件: “netinet/tcp.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_da928.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_da928.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_da928.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c(15): fatal error C1083: 无法打开包括文件: “netinet/tcp.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_da928.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.38
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <netinet/tcp.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;pem.h exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_d9e45.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:40:53。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_d9e45.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_d9e45.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_d9e45.dir\Debug\cmTC_d9e45.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_d9e45.dir\Debug\cmTC_d9e45.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d9e45.dir\Debug\\" /Fd"cmTC_d9e45.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_PEM_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d9e45.dir\Debug\\" /Fd"cmTC_d9e45.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_PEM_H.c"
+  
+  HAVE_PEM_H.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_PEM_H.c(15): fatal error C1083: 无法打开包括文件: “pem.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_d9e45.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_d9e45.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_d9e45.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_PEM_H.c(15): fatal error C1083: 无法打开包括文件: “pem.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_d9e45.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.38
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <pem.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;poll.h exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_44f71.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:40:53。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_44f71.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_44f71.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_44f71.dir\Debug\cmTC_44f71.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_44f71.dir\Debug\cmTC_44f71.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_44f71.dir\Debug\\" /Fd"cmTC_44f71.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_POLL_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_44f71.dir\Debug\\" /Fd"cmTC_44f71.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_POLL_H.c"
+  
+  HAVE_POLL_H.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_POLL_H.c(15): fatal error C1083: 无法打开包括文件: “poll.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_44f71.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_44f71.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_44f71.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_POLL_H.c(15): fatal error C1083: 无法打开包括文件: “poll.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_44f71.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.39
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <poll.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;rsa.h exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a13a1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:40:54。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_a13a1.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_a13a1.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_a13a1.dir\Debug\cmTC_a13a1.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_a13a1.dir\Debug\cmTC_a13a1.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a13a1.dir\Debug\\" /Fd"cmTC_a13a1.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_RSA_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a13a1.dir\Debug\\" /Fd"cmTC_a13a1.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_RSA_H.c"
+  
+  HAVE_RSA_H.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_RSA_H.c(15): fatal error C1083: 无法打开包括文件: “rsa.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_a13a1.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_a13a1.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_a13a1.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_RSA_H.c(15): fatal error C1083: 无法打开包括文件: “rsa.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_a13a1.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.38
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <rsa.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;setjmp.h;signal.h;ssl.h exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_cecb5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:40:54。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_cecb5.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_cecb5.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_cecb5.dir\Debug\cmTC_cecb5.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_cecb5.dir\Debug\cmTC_cecb5.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cecb5.dir\Debug\\" /Fd"cmTC_cecb5.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SSL_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cecb5.dir\Debug\\" /Fd"cmTC_cecb5.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SSL_H.c"
+  
+  HAVE_SSL_H.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SSL_H.c(17): fatal error C1083: 无法打开包括文件: “ssl.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_cecb5.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_cecb5.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_cecb5.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SSL_H.c(17): fatal error C1083: 无法打开包括文件: “ssl.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_cecb5.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.39
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <ssl.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;setjmp.h;signal.h;stdbool.h;stdio.h;stdlib.h;string.h;stropts.h exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_bbc46.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:40:56。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_bbc46.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_bbc46.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_bbc46.dir\Debug\cmTC_bbc46.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_bbc46.dir\Debug\cmTC_bbc46.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bbc46.dir\Debug\\" /Fd"cmTC_bbc46.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bbc46.dir\Debug\\" /Fd"cmTC_bbc46.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c"
+  
+  HAVE_STROPTS_H.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c(21): fatal error C1083: 无法打开包括文件: “stropts.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_bbc46.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_bbc46.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_bbc46.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c(21): fatal error C1083: 无法打开包括文件: “stropts.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_bbc46.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.39
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stropts.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;setjmp.h;signal.h;stdbool.h;stdio.h;stdlib.h;string.h;time.h;process.h;stddef.h;malloc.h;memory.h;sys/utsname.h exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9390c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:40:57。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_9390c.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_9390c.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_9390c.dir\Debug\cmTC_9390c.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_9390c.dir\Debug\cmTC_9390c.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9390c.dir\Debug\\" /Fd"cmTC_9390c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UTSNAME_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9390c.dir\Debug\\" /Fd"cmTC_9390c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UTSNAME_H.c"
+  
+  HAVE_SYS_UTSNAME_H.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UTSNAME_H.c(26): fatal error C1083: 无法打开包括文件: “sys/utsname.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_9390c.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_9390c.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_9390c.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UTSNAME_H.c(26): fatal error C1083: 无法打开包括文件: “sys/utsname.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_9390c.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.39
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+#include <sys/utsname.h>
+
+
+int main(void){return 0;}
+
+Determining size of ssize_t failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_49961.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:40:58。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_49961.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_49961.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_49961.dir\Debug\cmTC_49961.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_49961.dir\Debug\cmTC_49961.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_49961.dir\Debug\\" /Fd"cmTC_49961.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_49961.dir\Debug\\" /Fd"cmTC_49961.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c"
+  
+  SIZEOF_SSIZE_T.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(24): error C2065: “ssize_t”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_49961.vcxproj]
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(25): error C2065: “ssize_t”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_49961.vcxproj]
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(26): error C2065: “ssize_t”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_49961.vcxproj]
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(27): error C2065: “ssize_t”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_49961.vcxproj]
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(28): error C2065: “ssize_t”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_49961.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_49961.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_49961.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(24): error C2065: “ssize_t”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_49961.vcxproj]
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(25): error C2065: “ssize_t”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_49961.vcxproj]
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(26): error C2065: “ssize_t”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_49961.vcxproj]
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(27): error C2065: “ssize_t”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_49961.vcxproj]
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(28): error C2065: “ssize_t”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_49961.vcxproj]
+
+    0 个警告
+    5 个错误
+
+已用时间 00:00:00.27
+
+D:/curl/curl-7.60.0/build_x64/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c:
+#include <sys/types.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(ssize_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the basename exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9ec28.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:41:02。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_9ec28.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_9ec28.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_9ec28.dir\Debug\cmTC_9ec28.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_9ec28.dir\Debug\cmTC_9ec28.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9ec28.dir\Debug\\" /Fd"cmTC_9ec28.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9ec28.dir\Debug\\" /Fd"cmTC_9ec28.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: “basename”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_9ec28.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_9ec28.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_9ec28.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: “basename”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_9ec28.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.39
+
+File D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef basename
+  return ((int*)(&basename))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strncmpi exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_549f5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:41:02。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_549f5.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_549f5.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_549f5.dir\Debug\cmTC_549f5.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_549f5.dir\Debug\cmTC_549f5.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_549f5.dir\Debug\\" /Fd"cmTC_549f5.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_549f5.dir\Debug\\" /Fd"cmTC_549f5.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: “strncmpi”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_549f5.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_549f5.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_549f5.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: “strncmpi”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_549f5.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.41
+
+File D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncmpi
+  return ((int*)(&strncmpi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the alarm exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_76d90.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:41:03。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_76d90.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_76d90.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_76d90.dir\Debug\cmTC_76d90.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_76d90.dir\Debug\cmTC_76d90.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_76d90.dir\Debug\\" /Fd"cmTC_76d90.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_76d90.dir\Debug\\" /Fd"cmTC_76d90.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: “alarm”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_76d90.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_76d90.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_76d90.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: “alarm”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_76d90.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.39
+
+File D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef alarm
+  return ((int*)(&alarm))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strerror_r exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c3a96.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:41:06。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_c3a96.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_c3a96.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_c3a96.dir\Debug\cmTC_c3a96.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_c3a96.dir\Debug\cmTC_c3a96.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c3a96.dir\Debug\\" /Fd"cmTC_c3a96.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c3a96.dir\Debug\\" /Fd"cmTC_c3a96.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: “strerror_r”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_c3a96.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_c3a96.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_c3a96.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: “strerror_r”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_c3a96.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.39
+
+File D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_r
+  return ((int*)(&strerror_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the siginterrupt exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_7f9dd.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:41:06。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_7f9dd.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_7f9dd.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_7f9dd.dir\Debug\cmTC_7f9dd.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_7f9dd.dir\Debug\cmTC_7f9dd.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7f9dd.dir\Debug\\" /Fd"cmTC_7f9dd.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7f9dd.dir\Debug\\" /Fd"cmTC_7f9dd.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: “siginterrupt”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_7f9dd.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_7f9dd.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_7f9dd.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: “siginterrupt”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_7f9dd.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.44
+
+File D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef siginterrupt
+  return ((int*)(&siginterrupt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fork exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c4098.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:41:07。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_c4098.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_c4098.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_c4098.dir\Debug\cmTC_c4098.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_c4098.dir\Debug\cmTC_c4098.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c4098.dir\Debug\\" /Fd"cmTC_c4098.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c4098.dir\Debug\\" /Fd"cmTC_c4098.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: “fork”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_c4098.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_c4098.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_c4098.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: “fork”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_c4098.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.39
+
+File D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fork
+  return ((int*)(&fork))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the freeifaddrs exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_bc100.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:41:08。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_bc100.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_bc100.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_bc100.dir\Debug\cmTC_bc100.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_bc100.dir\Debug\cmTC_bc100.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bc100.dir\Debug\\" /Fd"cmTC_bc100.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bc100.dir\Debug\\" /Fd"cmTC_bc100.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: “freeifaddrs”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_bc100.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_bc100.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_bc100.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: “freeifaddrs”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_bc100.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.39
+
+File D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef freeifaddrs
+  return ((int*)(&freeifaddrs))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pipe exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f4802.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:41:08。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_f4802.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_f4802.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_f4802.dir\Debug\cmTC_f4802.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_f4802.dir\Debug\cmTC_f4802.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f4802.dir\Debug\\" /Fd"cmTC_f4802.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f4802.dir\Debug\\" /Fd"cmTC_f4802.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: “pipe”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_f4802.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_f4802.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_f4802.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: “pipe”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_f4802.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.39
+
+File D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pipe
+  return ((int*)(&pipe))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the ftruncate exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_2967b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:41:09。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_2967b.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_2967b.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_2967b.dir\Debug\cmTC_2967b.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_2967b.dir\Debug\cmTC_2967b.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2967b.dir\Debug\\" /Fd"cmTC_2967b.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2967b.dir\Debug\\" /Fd"cmTC_2967b.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: “ftruncate”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_2967b.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_2967b.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_2967b.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: “ftruncate”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_2967b.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.42
+
+File D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ftruncate
+  return ((int*)(&ftruncate))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getrlimit exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_134d3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:41:10。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_134d3.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_134d3.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_134d3.dir\Debug\cmTC_134d3.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_134d3.dir\Debug\cmTC_134d3.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_134d3.dir\Debug\\" /Fd"cmTC_134d3.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_134d3.dir\Debug\\" /Fd"cmTC_134d3.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: “getrlimit”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_134d3.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_134d3.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_134d3.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: “getrlimit”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_134d3.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.41
+
+File D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrlimit
+  return ((int*)(&getrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setrlimit exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c26e9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:41:12。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_c26e9.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_c26e9.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_c26e9.dir\Debug\cmTC_c26e9.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_c26e9.dir\Debug\cmTC_c26e9.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c26e9.dir\Debug\\" /Fd"cmTC_c26e9.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c26e9.dir\Debug\\" /Fd"cmTC_c26e9.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: “setrlimit”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_c26e9.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_c26e9.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_c26e9.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: “setrlimit”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_c26e9.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.41
+
+File D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setrlimit
+  return ((int*)(&setrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fcntl exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_05eb0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:41:13。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_05eb0.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_05eb0.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_05eb0.dir\Debug\cmTC_05eb0.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_05eb0.dir\Debug\cmTC_05eb0.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_05eb0.dir\Debug\\" /Fd"cmTC_05eb0.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_05eb0.dir\Debug\\" /Fd"cmTC_05eb0.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: “fcntl”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_05eb0.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_05eb0.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_05eb0.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: “fcntl”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_05eb0.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.42
+
+File D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fcntl
+  return ((int*)(&fcntl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the ioctl exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b318d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:41:13。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b318d.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_b318d.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_b318d.dir\Debug\cmTC_b318d.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_b318d.dir\Debug\cmTC_b318d.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b318d.dir\Debug\\" /Fd"cmTC_b318d.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b318d.dir\Debug\\" /Fd"cmTC_b318d.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: “ioctl”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b318d.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b318d.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b318d.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: “ioctl”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b318d.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.40
+
+File D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ioctl
+  return ((int*)(&ioctl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function mach_absolute_time exists failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f8ca2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:41:14。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_f8ca2.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_f8ca2.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_f8ca2.dir\Debug\cmTC_f8ca2.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_f8ca2.dir\Debug\cmTC_f8ca2.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=mach_absolute_time /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f8ca2.dir\Debug\\" /Fd"cmTC_f8ca2.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\Program Files\CMake\share\cmake-3.11\Modules\CheckFunctionExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=mach_absolute_time /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f8ca2.dir\Debug\\" /Fd"cmTC_f8ca2.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\Program Files\CMake\share\cmake-3.11\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\cmTC_f8ca2.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp/Debug/cmTC_f8ca2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp/Debug/cmTC_f8ca2.lib" /MACHINE:X64  /machine:x64 cmTC_f8ca2.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 mach_absolute_time，该符号在函数 main 中被引用 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_f8ca2.vcxproj]
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\cmTC_f8ca2.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_f8ca2.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_f8ca2.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_f8ca2.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 mach_absolute_time，该符号在函数 main 中被引用 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_f8ca2.vcxproj]
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\cmTC_f8ca2.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_f8ca2.vcxproj]
+
+    0 个警告
+    2 个错误
+
+已用时间 00:00:00.31
+
+
+Determining if the fsetxattr exist failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_39513.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:41:15。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_39513.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_39513.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_39513.dir\Debug\cmTC_39513.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_39513.dir\Debug\cmTC_39513.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_39513.dir\Debug\\" /Fd"cmTC_39513.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_39513.dir\Debug\\" /Fd"cmTC_39513.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: “fsetxattr”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_39513.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_39513.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_39513.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: “fsetxattr”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_39513.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.73
+
+File D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fsetxattr
+  return ((int*)(&fsetxattr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing Curl Test HAVE_FCNTL_O_NONBLOCK failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_67e47.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:41:16。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_67e47.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_67e47.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_67e47.dir\Debug\cmTC_67e47.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_67e47.dir\Debug\cmTC_67e47.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_FCNTL_O_NONBLOCK /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_67e47.dir\Debug\\" /Fd"cmTC_67e47.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\CMake\CurlTests.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_FCNTL_O_NONBLOCK /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_67e47.dir\Debug\\" /Fd"cmTC_67e47.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+D:\curl\curl-7.60.0\CMake\CurlTests.c(44): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_67e47.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_67e47.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_67e47.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\CMake\CurlTests.c(44): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_67e47.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.22
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_87d8e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:41:17。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_87d8e.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_87d8e.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_87d8e.dir\Debug\cmTC_87d8e.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_87d8e.dir\Debug\cmTC_87d8e.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET_CAMEL /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_87d8e.dir\Debug\\" /Fd"cmTC_87d8e.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\CMake\CurlTests.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET_CAMEL /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_87d8e.dir\Debug\\" /Fd"cmTC_87d8e.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+D:\curl\curl-7.60.0\CMake\CurlTests.c(350): warning C4013: “IoctlSocket”未定义；假设外部返回 int [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_87d8e.vcxproj]
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\cmTC_87d8e.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp/Debug/cmTC_87d8e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp/Debug/cmTC_87d8e.lib" /MACHINE:X64  /machine:x64 cmTC_87d8e.dir\Debug\CurlTests.obj
+CurlTests.obj : error LNK2019: 无法解析的外部符号 IoctlSocket，该符号在函数 main 中被引用 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_87d8e.vcxproj]
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\cmTC_87d8e.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_87d8e.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_87d8e.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_87d8e.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\CMake\CurlTests.c(350): warning C4013: “IoctlSocket”未定义；假设外部返回 int [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_87d8e.vcxproj]
+
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_87d8e.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  CurlTests.obj : error LNK2019: 无法解析的外部符号 IoctlSocket，该符号在函数 main 中被引用 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_87d8e.vcxproj]
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\cmTC_87d8e.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_87d8e.vcxproj]
+
+    1 个警告
+    2 个错误
+
+已用时间 00:00:00.39
+
+Performing Curl Test HAVE_IOCTL_FIONBIO failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_50dbe.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:41:19。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_50dbe.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_50dbe.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_50dbe.dir\Debug\cmTC_50dbe.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_50dbe.dir\Debug\cmTC_50dbe.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_IOCTL_FIONBIO /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_50dbe.dir\Debug\\" /Fd"cmTC_50dbe.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\CMake\CurlTests.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_IOCTL_FIONBIO /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_50dbe.dir\Debug\\" /Fd"cmTC_50dbe.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+D:\curl\curl-7.60.0\CMake\CurlTests.c(436): warning C4013: “ioctl”未定义；假设外部返回 int [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_50dbe.vcxproj]
+D:\curl\curl-7.60.0\CMake\CurlTests.c(436): error C2065: “FIONBIO”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_50dbe.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_50dbe.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_50dbe.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\CMake\CurlTests.c(436): warning C4013: “ioctl”未定义；假设外部返回 int [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_50dbe.vcxproj]
+
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_50dbe.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\CMake\CurlTests.c(436): error C2065: “FIONBIO”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_50dbe.vcxproj]
+
+    1 个警告
+    1 个错误
+
+已用时间 00:00:00.24
+
+Performing Curl Test HAVE_IOCTL_SIOCGIFADDR failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_1c0de.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:41:19。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_1c0de.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_1c0de.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_1c0de.dir\Debug\cmTC_1c0de.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_1c0de.dir\Debug\cmTC_1c0de.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_IOCTL_SIOCGIFADDR /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1c0de.dir\Debug\\" /Fd"cmTC_1c0de.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\CMake\CurlTests.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_IOCTL_SIOCGIFADDR /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1c0de.dir\Debug\\" /Fd"cmTC_1c0de.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+D:\curl\curl-7.60.0\CMake\CurlTests.c(461): fatal error C1083: 无法打开包括文件: “net/if.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_1c0de.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_1c0de.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_1c0de.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\CMake\CurlTests.c(461): fatal error C1083: 无法打开包括文件: “net/if.h”: No such file or directory [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_1c0de.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.21
+
+Performing Curl Test HAVE_SETSOCKOPT_SO_NONBLOCK failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c5d01.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:41:20。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_c5d01.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_c5d01.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_c5d01.dir\Debug\cmTC_c5d01.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_c5d01.dir\Debug\cmTC_c5d01.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_SETSOCKOPT_SO_NONBLOCK /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c5d01.dir\Debug\\" /Fd"cmTC_c5d01.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\CMake\CurlTests.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_SETSOCKOPT_SO_NONBLOCK /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c5d01.dir\Debug\\" /Fd"cmTC_c5d01.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+D:\curl\curl-7.60.0\CMake\CurlTests.c(501): error C2065: “SO_NONBLOCK”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_c5d01.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_c5d01.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_c5d01.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\CMake\CurlTests.c(501): error C2065: “SO_NONBLOCK”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_c5d01.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.32
+
+Performing Curl Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_699c1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:41:20。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_699c1.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_699c1.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_699c1.dir\Debug\cmTC_699c1.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_699c1.dir\Debug\cmTC_699c1.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_699c1.dir\Debug\\" /Fd"cmTC_699c1.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\CMake\CurlTests.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_699c1.dir\Debug\\" /Fd"cmTC_699c1.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\cmTC_699c1.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp/Debug/cmTC_699c1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp/Debug/cmTC_699c1.lib" /MACHINE:X64  /machine:x64 cmTC_699c1.dir\Debug\CurlTests.obj
+MSVCRTD.lib(exe_main.obj) : error LNK2019: 无法解析的外部符号 main，该符号在函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中被引用 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_699c1.vcxproj]
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\cmTC_699c1.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_699c1.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_699c1.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_699c1.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  MSVCRTD.lib(exe_main.obj) : error LNK2019: 无法解析的外部符号 main，该符号在函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中被引用 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_699c1.vcxproj]
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\cmTC_699c1.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_699c1.vcxproj]
+
+    0 个警告
+    2 个错误
+
+已用时间 00:00:00.31
+
+Performing Curl Test HAVE_FILE_OFFSET_BITS failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e3ce5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:41:22。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_e3ce5.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_e3ce5.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_e3ce5.dir\Debug\cmTC_e3ce5.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_e3ce5.dir\Debug\cmTC_e3ce5.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_FILE_OFFSET_BITS /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e3ce5.dir\Debug\\" /Fd"cmTC_e3ce5.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\CMake\CurlTests.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_FILE_OFFSET_BITS /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e3ce5.dir\Debug\\" /Fd"cmTC_e3ce5.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+D:\curl\curl-7.60.0\CMake\CurlTests.c(295): warning C4293: “<<”: Shift 计数为负或过大，其行为未定义 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_e3ce5.vcxproj]
+D:\curl\curl-7.60.0\CMake\CurlTests.c(296): warning C4293: “<<”: Shift 计数为负或过大，其行为未定义 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_e3ce5.vcxproj]
+D:\curl\curl-7.60.0\CMake\CurlTests.c(297): error C2118: 负下标 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_e3ce5.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_e3ce5.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_e3ce5.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\CMake\CurlTests.c(295): warning C4293: “<<”: Shift 计数为负或过大，其行为未定义 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_e3ce5.vcxproj]
+  D:\curl\curl-7.60.0\CMake\CurlTests.c(296): warning C4293: “<<”: Shift 计数为负或过大，其行为未定义 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_e3ce5.vcxproj]
+
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_e3ce5.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\CMake\CurlTests.c(297): error C2118: 负下标 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_e3ce5.vcxproj]
+
+    2 个警告
+    1 个错误
+
+已用时间 00:00:00.21
+
+Performing Curl Test HAVE_GLIBC_STRERROR_R failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b28f8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:41:23。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b28f8.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_b28f8.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_b28f8.dir\Debug\cmTC_b28f8.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_b28f8.dir\Debug\cmTC_b28f8.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_GLIBC_STRERROR_R /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b28f8.dir\Debug\\" /Fd"cmTC_b28f8.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\CMake\CurlTests.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_GLIBC_STRERROR_R /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b28f8.dir\Debug\\" /Fd"cmTC_b28f8.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+D:\curl\curl-7.60.0\CMake\CurlTests.c(514): warning C4013: “strerror_r”未定义；假设外部返回 int [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b28f8.vcxproj]
+D:\curl\curl-7.60.0\CMake\CurlTests.c(513): warning C4047: “初始化”:“char *”与“int”的间接级别不同 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b28f8.vcxproj]
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\cmTC_b28f8.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp/Debug/cmTC_b28f8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp/Debug/cmTC_b28f8.lib" /MACHINE:X64  /machine:x64 cmTC_b28f8.dir\Debug\CurlTests.obj
+CurlTests.obj : error LNK2019: 无法解析的外部符号 strerror_r，该符号在函数 main 中被引用 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b28f8.vcxproj]
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\cmTC_b28f8.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b28f8.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b28f8.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b28f8.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\CMake\CurlTests.c(514): warning C4013: “strerror_r”未定义；假设外部返回 int [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b28f8.vcxproj]
+  D:\curl\curl-7.60.0\CMake\CurlTests.c(513): warning C4047: “初始化”:“char *”与“int”的间接级别不同 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b28f8.vcxproj]
+
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b28f8.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  CurlTests.obj : error LNK2019: 无法解析的外部符号 strerror_r，该符号在函数 main 中被引用 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b28f8.vcxproj]
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\cmTC_b28f8.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b28f8.vcxproj]
+
+    2 个警告
+    2 个错误
+
+已用时间 00:00:00.34
+
+
+Performing Curl Test HAVE_POSIX_STRERROR_R failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b7c41.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:41:24。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b7c41.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_b7c41.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_b7c41.dir\Debug\cmTC_b7c41.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_b7c41.dir\Debug\cmTC_b7c41.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_POSIX_STRERROR_R /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b7c41.dir\Debug\\" /Fd"cmTC_b7c41.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\CMake\CurlTests.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_POSIX_STRERROR_R /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b7c41.dir\Debug\\" /Fd"cmTC_b7c41.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+D:\curl\curl-7.60.0\CMake\CurlTests.c(528): warning C4013: “strerror_r”未定义；假设外部返回 int [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b7c41.vcxproj]
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\cmTC_b7c41.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp/Debug/cmTC_b7c41.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp/Debug/cmTC_b7c41.lib" /MACHINE:X64  /machine:x64 cmTC_b7c41.dir\Debug\CurlTests.obj
+CurlTests.obj : error LNK2019: 无法解析的外部符号 strerror_r，该符号在函数 main 中被引用 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b7c41.vcxproj]
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\cmTC_b7c41.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b7c41.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b7c41.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b7c41.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\CMake\CurlTests.c(528): warning C4013: “strerror_r”未定义；假设外部返回 int [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b7c41.vcxproj]
+
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b7c41.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  CurlTests.obj : error LNK2019: 无法解析的外部符号 strerror_r，该符号在函数 main 中被引用 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b7c41.vcxproj]
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\cmTC_b7c41.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_b7c41.vcxproj]
+
+    1 个警告
+    2 个错误
+
+已用时间 00:00:00.32
+
+
+Performing C SOURCE FILE Test HAVE_MSG_NOSIGNAL failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_bdc46.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:41:28。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_bdc46.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_bdc46.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_bdc46.dir\Debug\cmTC_bdc46.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_bdc46.dir\Debug\cmTC_bdc46.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"D:\curl\curl-7.60.0\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_MSG_NOSIGNAL /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bdc46.dir\Debug\\" /Fd"cmTC_bdc46.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\src.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"D:\curl\curl-7.60.0\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_MSG_NOSIGNAL /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bdc46.dir\Debug\\" /Fd"cmTC_bdc46.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\src.c(9): error C2065: “MSG_NOSIGNAL”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_bdc46.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_bdc46.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_bdc46.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\src.c(9): error C2065: “MSG_NOSIGNAL”: 未声明的标识符 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_bdc46.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.39
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#include <winsock.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+  int main(void) {
+    int flag = MSG_NOSIGNAL;
+    (void)flag;
+    return 0;
+  }
+Performing C SOURCE FILE Test HAVE_POLL_FINE failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_719e8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:41:29。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_719e8.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_719e8.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_719e8.dir\Debug\cmTC_719e8.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_719e8.dir\Debug\cmTC_719e8.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"D:\curl\curl-7.60.0\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_POLL_FINE /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_719e8.dir\Debug\\" /Fd"cmTC_719e8.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\src.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"D:\curl\curl-7.60.0\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_POLL_FINE /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_719e8.dir\Debug\\" /Fd"cmTC_719e8.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\src.c(6): warning C4013: “poll”未定义；假设外部返回 int [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_719e8.vcxproj]
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\cmTC_719e8.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp/Debug/cmTC_719e8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp/Debug/cmTC_719e8.lib" /MACHINE:X64  /machine:x64 cmTC_719e8.dir\Debug\src.obj
+src.obj : error LNK2019: 无法解析的外部符号 poll，该符号在函数 main 中被引用 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_719e8.vcxproj]
+D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\cmTC_719e8.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_719e8.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_719e8.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_719e8.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\src.c(6): warning C4013: “poll”未定义；假设外部返回 int [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_719e8.vcxproj]
+
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_719e8.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  src.obj : error LNK2019: 无法解析的外部符号 poll，该符号在函数 main 中被引用 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_719e8.vcxproj]
+  D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\cmTC_719e8.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_719e8.vcxproj]
+
+    1 个警告
+    2 个错误
+
+已用时间 00:00:00.34
+
+Return value: 1
+Source file was:
+
+    #ifdef HAVE_SYS_POLL_H
+    #  include <sys/poll.h>
+    #endif
+    int main(void) {
+      return poll((void *)0, 0, 10 /*ms*/);
+    }
+Determining if the include file openssl/ssl.h exists failed with the following output:
+Change Dir: D:/curl/curl-7.60.0/build_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c9890.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/5 10:43:53。
+节点 1 上的项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_c9890.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_c9890.dir\Debug\”。
+  正在创建目录“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_c9890.dir\Debug\cmTC_c9890.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_c9890.dir\Debug\cmTC_c9890.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ID:\curl\deps\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c9890.dir\Debug\\" /Fd"cmTC_c9890.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /ID:\curl\deps\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c9890.dir\Debug\\" /Fd"cmTC_c9890.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+D:\curl\deps\include\openssl/dtls1.h(227): error C2079: “next_timeout”使用未定义的 struct“timeval” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_c9890.vcxproj]
+已完成生成项目“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_c9890.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_c9890.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\curl\deps\include\openssl/dtls1.h(227): error C2079: “next_timeout”使用未定义的 struct“timeval” [D:\curl\curl-7.60.0\build_x64\CMakeFiles\CMakeTmp\cmTC_c9890.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.26
+
+

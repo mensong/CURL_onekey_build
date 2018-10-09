@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{237DF0DC-C234-34C7-AB3C-D6827DFAEA9C}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\curl\curl-7.60.0\build_x64\include\curl;D:\curl\curl-7.60.0\include;D:\curl\deps\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\curl\curl-7.60.0\build_x64\include\curl;D:\curl\curl-7.60.0\include;D:\curl\deps\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\curl\curl-7.60.0\build_x64\include\curl;D:\curl\curl-7.60.0\include;D:\curl\deps\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\curl\curl-7.60.0\build_x64\include\curl;D:\curl\curl-7.60.0\include;D:\curl\deps\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\curl\curl-7.60.0\build_x64\CMakeFiles\8639e41fee149e8d6a665b8d825cbc20\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HD:/curl/curl-7.60.0 -BD:/curl/curl-7.60.0/build_x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/curl/curl-7.60.0/build_x64/CURL.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/curl/curl-7.60.0/build_x64/CMakeFiles/8639e41fee149e8d6a665b8d825cbc20/generate.stamp.rule;D:\Program Files\CMake\share\cmake-3.11\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDependentOption.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CTest.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CTestTargets.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CTestUseLaunchers.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckCCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckCSourceRuns.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckFunctionExists.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckIncludeFiles.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckStructHasMember.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckTypeSize.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\DartConfiguration.tcl.in;D:\Program Files\CMake\share\cmake-3.11\Modules\FindCygwin.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\FindOpenSSL.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\FindPerl.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\FindZLIB.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\WriteBasicConfigVersionFile.cmake;D:\curl\curl-7.60.0\CMake\CurlSymbolHiding.cmake;D:\curl\curl-7.60.0\CMake\FindLibSSH2.cmake;D:\curl\curl-7.60.0\CMake\Macros.cmake;D:\curl\curl-7.60.0\CMake\OtherTests.cmake;D:\curl\curl-7.60.0\CMake\Platforms\WindowsCache.cmake;D:\curl\curl-7.60.0\CMake\Utilities.cmake;D:\curl\curl-7.60.0\CMake\cmake_uninstall.cmake.in;D:\curl\curl-7.60.0\CMake\curl-config.cmake;D:\curl\curl-7.60.0\CMakeLists.txt;D:\curl\curl-7.60.0\build_x64\CMakeFiles\3.11.0-rc3\CMakeCCompiler.cmake;D:\curl\curl-7.60.0\build_x64\CMakeFiles\3.11.0-rc3\CMakeRCCompiler.cmake;D:\curl\curl-7.60.0\build_x64\CMakeFiles\3.11.0-rc3\CMakeSystem.cmake;D:\curl\curl-7.60.0\build_x64\lib\Makefile.inc.cmake;D:\curl\curl-7.60.0\build_x64\src\Makefile.inc.cmake;D:\curl\curl-7.60.0\build_x64\tests\data\Makefile.inc.cmake;D:\curl\curl-7.60.0\build_x64\tests\libtest\Makefile.inc.cmake;D:\curl\curl-7.60.0\build_x64\tests\server\Makefile.inc.cmake;D:\curl\curl-7.60.0\curl-config.in;D:\curl\curl-7.60.0\lib\CMakeLists.txt;D:\curl\curl-7.60.0\lib\curl_config.h.cmake;D:\curl\curl-7.60.0\libcurl.pc.in;D:\curl\curl-7.60.0\src\CMakeLists.txt;D:\curl\curl-7.60.0\tests\CMakeLists.txt;D:\curl\curl-7.60.0\tests\data\CMakeLists.txt;D:\curl\curl-7.60.0\tests\libtest\CMakeLists.txt;D:\curl\curl-7.60.0\tests\server\CMakeLists.txt;D:\curl\curl-7.60.0\tests\unit\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\curl\curl-7.60.0\build_x64\CMakeFiles\generate.stamp;D:\curl\curl-7.60.0\build_x64\lib\CMakeFiles\generate.stamp;D:\curl\curl-7.60.0\build_x64\src\CMakeFiles\generate.stamp;D:\curl\curl-7.60.0\build_x64\tests\CMakeFiles\generate.stamp;D:\curl\curl-7.60.0\build_x64\tests\data\CMakeFiles\generate.stamp;D:\curl\curl-7.60.0\build_x64\tests\libtest\CMakeFiles\generate.stamp;D:\curl\curl-7.60.0\build_x64\tests\server\CMakeFiles\generate.stamp;D:\curl\curl-7.60.0\build_x64\tests\unit\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HD:/curl/curl-7.60.0 -BD:/curl/curl-7.60.0/build_x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/curl/curl-7.60.0/build_x64/CURL.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/curl/curl-7.60.0/build_x64/CMakeFiles/8639e41fee149e8d6a665b8d825cbc20/generate.stamp.rule;D:\Program Files\CMake\share\cmake-3.11\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDependentOption.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CTest.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CTestTargets.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CTestUseLaunchers.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckCCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckCSourceRuns.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckFunctionExists.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckIncludeFiles.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckStructHasMember.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckTypeSize.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\DartConfiguration.tcl.in;D:\Program Files\CMake\share\cmake-3.11\Modules\FindCygwin.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\FindOpenSSL.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\FindPerl.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\FindZLIB.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\WriteBasicConfigVersionFile.cmake;D:\curl\curl-7.60.0\CMake\CurlSymbolHiding.cmake;D:\curl\curl-7.60.0\CMake\FindLibSSH2.cmake;D:\curl\curl-7.60.0\CMake\Macros.cmake;D:\curl\curl-7.60.0\CMake\OtherTests.cmake;D:\curl\curl-7.60.0\CMake\Platforms\WindowsCache.cmake;D:\curl\curl-7.60.0\CMake\Utilities.cmake;D:\curl\curl-7.60.0\CMake\cmake_uninstall.cmake.in;D:\curl\curl-7.60.0\CMake\curl-config.cmake;D:\curl\curl-7.60.0\CMakeLists.txt;D:\curl\curl-7.60.0\build_x64\CMakeFiles\3.11.0-rc3\CMakeCCompiler.cmake;D:\curl\curl-7.60.0\build_x64\CMakeFiles\3.11.0-rc3\CMakeRCCompiler.cmake;D:\curl\curl-7.60.0\build_x64\CMakeFiles\3.11.0-rc3\CMakeSystem.cmake;D:\curl\curl-7.60.0\build_x64\lib\Makefile.inc.cmake;D:\curl\curl-7.60.0\build_x64\src\Makefile.inc.cmake;D:\curl\curl-7.60.0\build_x64\tests\data\Makefile.inc.cmake;D:\curl\curl-7.60.0\build_x64\tests\libtest\Makefile.inc.cmake;D:\curl\curl-7.60.0\build_x64\tests\server\Makefile.inc.cmake;D:\curl\curl-7.60.0\curl-config.in;D:\curl\curl-7.60.0\lib\CMakeLists.txt;D:\curl\curl-7.60.0\lib\curl_config.h.cmake;D:\curl\curl-7.60.0\libcurl.pc.in;D:\curl\curl-7.60.0\src\CMakeLists.txt;D:\curl\curl-7.60.0\tests\CMakeLists.txt;D:\curl\curl-7.60.0\tests\data\CMakeLists.txt;D:\curl\curl-7.60.0\tests\libtest\CMakeLists.txt;D:\curl\curl-7.60.0\tests\server\CMakeLists.txt;D:\curl\curl-7.60.0\tests\unit\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\curl\curl-7.60.0\build_x64\CMakeFiles\generate.stamp;D:\curl\curl-7.60.0\build_x64\lib\CMakeFiles\generate.stamp;D:\curl\curl-7.60.0\build_x64\src\CMakeFiles\generate.stamp;D:\curl\curl-7.60.0\build_x64\tests\CMakeFiles\generate.stamp;D:\curl\curl-7.60.0\build_x64\tests\data\CMakeFiles\generate.stamp;D:\curl\curl-7.60.0\build_x64\tests\libtest\CMakeFiles\generate.stamp;D:\curl\curl-7.60.0\build_x64\tests\server\CMakeFiles\generate.stamp;D:\curl\curl-7.60.0\build_x64\tests\unit\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HD:/curl/curl-7.60.0 -BD:/curl/curl-7.60.0/build_x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/curl/curl-7.60.0/build_x64/CURL.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/curl/curl-7.60.0/build_x64/CMakeFiles/8639e41fee149e8d6a665b8d825cbc20/generate.stamp.rule;D:\Program Files\CMake\share\cmake-3.11\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDependentOption.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CTest.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CTestTargets.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CTestUseLaunchers.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckCCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckCSourceRuns.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckFunctionExists.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckIncludeFiles.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckStructHasMember.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckTypeSize.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\DartConfiguration.tcl.in;D:\Program Files\CMake\share\cmake-3.11\Modules\FindCygwin.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\FindOpenSSL.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\FindPerl.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\FindZLIB.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\WriteBasicConfigVersionFile.cmake;D:\curl\curl-7.60.0\CMake\CurlSymbolHiding.cmake;D:\curl\curl-7.60.0\CMake\FindLibSSH2.cmake;D:\curl\curl-7.60.0\CMake\Macros.cmake;D:\curl\curl-7.60.0\CMake\OtherTests.cmake;D:\curl\curl-7.60.0\CMake\Platforms\WindowsCache.cmake;D:\curl\curl-7.60.0\CMake\Utilities.cmake;D:\curl\curl-7.60.0\CMake\cmake_uninstall.cmake.in;D:\curl\curl-7.60.0\CMake\curl-config.cmake;D:\curl\curl-7.60.0\CMakeLists.txt;D:\curl\curl-7.60.0\build_x64\CMakeFiles\3.11.0-rc3\CMakeCCompiler.cmake;D:\curl\curl-7.60.0\build_x64\CMakeFiles\3.11.0-rc3\CMakeRCCompiler.cmake;D:\curl\curl-7.60.0\build_x64\CMakeFiles\3.11.0-rc3\CMakeSystem.cmake;D:\curl\curl-7.60.0\build_x64\lib\Makefile.inc.cmake;D:\curl\curl-7.60.0\build_x64\src\Makefile.inc.cmake;D:\curl\curl-7.60.0\build_x64\tests\data\Makefile.inc.cmake;D:\curl\curl-7.60.0\build_x64\tests\libtest\Makefile.inc.cmake;D:\curl\curl-7.60.0\build_x64\tests\server\Makefile.inc.cmake;D:\curl\curl-7.60.0\curl-config.in;D:\curl\curl-7.60.0\lib\CMakeLists.txt;D:\curl\curl-7.60.0\lib\curl_config.h.cmake;D:\curl\curl-7.60.0\libcurl.pc.in;D:\curl\curl-7.60.0\src\CMakeLists.txt;D:\curl\curl-7.60.0\tests\CMakeLists.txt;D:\curl\curl-7.60.0\tests\data\CMakeLists.txt;D:\curl\curl-7.60.0\tests\libtest\CMakeLists.txt;D:\curl\curl-7.60.0\tests\server\CMakeLists.txt;D:\curl\curl-7.60.0\tests\unit\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\curl\curl-7.60.0\build_x64\CMakeFiles\generate.stamp;D:\curl\curl-7.60.0\build_x64\lib\CMakeFiles\generate.stamp;D:\curl\curl-7.60.0\build_x64\src\CMakeFiles\generate.stamp;D:\curl\curl-7.60.0\build_x64\tests\CMakeFiles\generate.stamp;D:\curl\curl-7.60.0\build_x64\tests\data\CMakeFiles\generate.stamp;D:\curl\curl-7.60.0\build_x64\tests\libtest\CMakeFiles\generate.stamp;D:\curl\curl-7.60.0\build_x64\tests\server\CMakeFiles\generate.stamp;D:\curl\curl-7.60.0\build_x64\tests\unit\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HD:/curl/curl-7.60.0 -BD:/curl/curl-7.60.0/build_x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/curl/curl-7.60.0/build_x64/CURL.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/curl/curl-7.60.0/build_x64/CMakeFiles/8639e41fee149e8d6a665b8d825cbc20/generate.stamp.rule;D:\Program Files\CMake\share\cmake-3.11\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDependentOption.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CTest.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CTestTargets.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CTestUseLaunchers.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckCCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckCSourceRuns.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckFunctionExists.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckIncludeFiles.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckStructHasMember.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CheckTypeSize.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\DartConfiguration.tcl.in;D:\Program Files\CMake\share\cmake-3.11\Modules\FindCygwin.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\FindOpenSSL.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\FindPerl.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\FindZLIB.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\WriteBasicConfigVersionFile.cmake;D:\curl\curl-7.60.0\CMake\CurlSymbolHiding.cmake;D:\curl\curl-7.60.0\CMake\FindLibSSH2.cmake;D:\curl\curl-7.60.0\CMake\Macros.cmake;D:\curl\curl-7.60.0\CMake\OtherTests.cmake;D:\curl\curl-7.60.0\CMake\Platforms\WindowsCache.cmake;D:\curl\curl-7.60.0\CMake\Utilities.cmake;D:\curl\curl-7.60.0\CMake\cmake_uninstall.cmake.in;D:\curl\curl-7.60.0\CMake\curl-config.cmake;D:\curl\curl-7.60.0\CMakeLists.txt;D:\curl\curl-7.60.0\build_x64\CMakeFiles\3.11.0-rc3\CMakeCCompiler.cmake;D:\curl\curl-7.60.0\build_x64\CMakeFiles\3.11.0-rc3\CMakeRCCompiler.cmake;D:\curl\curl-7.60.0\build_x64\CMakeFiles\3.11.0-rc3\CMakeSystem.cmake;D:\curl\curl-7.60.0\build_x64\lib\Makefile.inc.cmake;D:\curl\curl-7.60.0\build_x64\src\Makefile.inc.cmake;D:\curl\curl-7.60.0\build_x64\tests\data\Makefile.inc.cmake;D:\curl\curl-7.60.0\build_x64\tests\libtest\Makefile.inc.cmake;D:\curl\curl-7.60.0\build_x64\tests\server\Makefile.inc.cmake;D:\curl\curl-7.60.0\curl-config.in;D:\curl\curl-7.60.0\lib\CMakeLists.txt;D:\curl\curl-7.60.0\lib\curl_config.h.cmake;D:\curl\curl-7.60.0\libcurl.pc.in;D:\curl\curl-7.60.0\src\CMakeLists.txt;D:\curl\curl-7.60.0\tests\CMakeLists.txt;D:\curl\curl-7.60.0\tests\data\CMakeLists.txt;D:\curl\curl-7.60.0\tests\libtest\CMakeLists.txt;D:\curl\curl-7.60.0\tests\server\CMakeLists.txt;D:\curl\curl-7.60.0\tests\unit\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\curl\curl-7.60.0\build_x64\CMakeFiles\generate.stamp;D:\curl\curl-7.60.0\build_x64\lib\CMakeFiles\generate.stamp;D:\curl\curl-7.60.0\build_x64\src\CMakeFiles\generate.stamp;D:\curl\curl-7.60.0\build_x64\tests\CMakeFiles\generate.stamp;D:\curl\curl-7.60.0\build_x64\tests\data\CMakeFiles\generate.stamp;D:\curl\curl-7.60.0\build_x64\tests\libtest\CMakeFiles\generate.stamp;D:\curl\curl-7.60.0\build_x64\tests\server\CMakeFiles\generate.stamp;D:\curl\curl-7.60.0\build_x64\tests\unit\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

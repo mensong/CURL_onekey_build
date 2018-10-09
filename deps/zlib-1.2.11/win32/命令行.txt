@@ -1,0 +1,5 @@
+x86
+nmake -f Makefile.msc
+
+x64
+nmake -f Makefile64.msc

@@ -1,0 +1,3 @@
+使用vs2015的命令行工具运行。
+32位：BuildAll32.bat
+64位：BuildAll64.bat

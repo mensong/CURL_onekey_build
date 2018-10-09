@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\curl\curl-7.60.0\lib\mprintf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\curl\curl-7.60.0\lib\nonblock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\curl\curl-7.60.0\lib\strtoofft.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\curl\curl-7.60.0\lib\warnless.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\curl\curl-7.60.0\lib\curl_ctype.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\curl\curl-7.60.0\tests\server\getpart.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\curl\curl-7.60.0\lib\base64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\curl\curl-7.60.0\lib\memdebug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\curl\curl-7.60.0\tests\server\util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\curl\curl-7.60.0\tests\server\rtspd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\curl\curl-7.60.0\lib\curlx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\curl\curl-7.60.0\lib\nonblock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\curl\curl-7.60.0\lib\strtoofft.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\curl\curl-7.60.0\lib\warnless.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\curl\curl-7.60.0\lib\curl_ctype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\curl\curl-7.60.0\tests\server\getpart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\curl\curl-7.60.0\tests\server\server_setup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\curl\curl-7.60.0\lib\curl_base64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\curl\curl-7.60.0\lib\memdebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\curl\curl-7.60.0\tests\server\util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\curl\curl-7.60.0\tests\server\server_sockaddr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\curl\curl-7.60.0\tests\server\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1C15A8C2-1F96-3C0A-A9B2-DCC7ADB30854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{22A2E755-FDE4-3BD5-BF61-B1C7EABC6E9D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
