@@ -1,3 +1,4 @@
-使用vs2015的命令行工具运行。
-32位：BuildAll32.bat
-64位：BuildAll64.bat
+1.先安装：tool/ActivePerl-5.10.1.1007.msi
+2.使用vs2015的命令行工具运行。
+  32位：BuildAll32.bat
+  64位：BuildAll64.bat
