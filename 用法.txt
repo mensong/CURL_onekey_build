@@ -1,4 +1,10 @@
 1.先安装：tool/ActivePerl-5.10.1.1007.msi
-2.使用vs2015的命令行工具运行。
+2.启动编译：
   32位：BuildAll32.bat
   64位：BuildAll64.bat
+
+3.得到的结果在out目录下。
+  
+编译后的使用：
+链接的输入项除了必要的外，还需要加入：Ws2_32.lib;Wldap32.lib
+预处理器：CURL_STATICLIB
