@@ -1,4 +1,4 @@
-call "%VS140COMNTOOLS%\..\..\VC\bin\x86_amd64\vcvarsx86_amd64.bat" %2
+call "%VS140COMNTOOLS%\..\..\VC\bin\vcvars32.bat" %2
 set VisualStudioVersion=14.0
 
 pushd "%CD%"
