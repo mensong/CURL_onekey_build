@@ -1,3 +1,6 @@
+call "%VS140COMNTOOLS%\..\..\VC\bin\vcvars32.bat" %2
+set VisualStudioVersion=14.0
+
 pushd "%CD%"
 
 call deps\Clean.bat
@@ -30,5 +33,8 @@ del ".\deps\openssl-1.0.2o\crypto\opensslconf.h.bak"
 del ".\deps\openssl-1.0.2o\inc32\openssl\opensslconf.h"
 del ".\deps\openssl-1.0.2o\ms\nt.mak"
 del ".\deps\openssl-1.0.2o\ms\uptable.asm"
+
+cd /d ".\deps\zlib-1.2.11\win32"
+nmake -f Makefile.msc clean
 
 popd
