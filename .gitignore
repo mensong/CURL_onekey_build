@@ -36,3 +36,8 @@
 /deps/openssl-1.0.2o/crypto/opensslconf.h
 /deps/openssl-1.0.2o/inc32/openssl/opensslconf.h
 /out
+/deps/zlib-1.2.11/contrib/vstudio/vc14/x64
+/curl-7.60.0/build_x64/lib/Debug
+/curl-7.60.0/build_x64/lib/Release
+/curl-7.60.0/build_x64/lib/libcurl.dir
+/deps/zlib-1.2.11/contrib/vstudio/vc14/.vs/zlibvc/v14

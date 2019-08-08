@@ -3,6 +3,8 @@ set VisualStudioVersion=14.0
 
 pushd "%CD%"
 
+call Clean.bat
+
 cd /d %~dp0
 call deps\BuildDeps64.bat
 
