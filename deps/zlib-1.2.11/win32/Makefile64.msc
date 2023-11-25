@@ -2,12 +2,16 @@
 # zlib is copyright (C) 1995-2017 Jean-loup Gailly and Mark Adler
 #
 # Usage:
-#   nmake -f win32/Makefile.msc                          (standard build)
-#   nmake -f win32/Makefile.msc LOC=-DFOO                (nonstandard build)
-#   nmake -f win32/Makefile.msc LOC="-DASMV -DASMINF" \
+#   nmake -f Makefile64.msc                          (standard build)
+#   nmake -f Makefile64.msc LOC=-DFOO                (nonstandard build)
+#   nmake -f Makefile64.msc LOC="-DASMV -DASMINF" \
 #         OBJA="inffas32.obj match686.obj"               (use ASM code, x86)
-#   nmake -f win32/Makefile.msc AS=ml64 LOC="-DASMV -DASMINF -I." \
+#   nmake -f Makefile64.msc AS=ml64 LOC="-DASMV -DASMINF -I." \
 #         OBJA="inffasx64.obj gvmat64.obj inffas8664.obj"  (use ASM code, x64)
+#	nmake -f Makefile64.msc CRT=MT
+#	nmake -f Makefile64.msc CRT=MTd
+#	nmake -f Makefile64.msc CRT=MD
+#	nmake -f Makefile64.msc CRT=MDd
 
 # The toplevel directory of the source tree.
 #
@@ -15,6 +19,9 @@ TOP = ..
 
 # optional build flags
 LOC =
+
+# MDd or MTd or MD or MT
+CRT = MD
 
 # variables
 STATICLIB = zlib.lib
@@ -27,7 +34,7 @@ LD = link
 SUB_SYSTEM = /subsystem:console,5.02
 AR = lib
 RC = rc
-CFLAGS  = -nologo -MD -W3 -O2 -Oy- -Zi -Fd"zlib" $(LOC)
+CFLAGS  = -nologo -$(CRT) -W3 -O2 -Oy- -Zi -Fd"zlib" $(LOC)
 WFLAGS  = -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE
 ASFLAGS = -coff -Zi $(LOC)
 LDFLAGS = -nologo -debug -incremental:no -opt:ref

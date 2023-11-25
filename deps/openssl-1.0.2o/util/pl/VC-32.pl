@@ -46,6 +46,9 @@ if ($FLAVOR =~ /WIN64/)
     # 
     $base_cflags= " $mf_cflag";
     my $f = $shlib || $fips ?' /MD':' /MT';
+	if ($crt) {
+		$f = '/'.$crt;
+	}
     $opt_cflags=$f.' /Ox';
     $dbg_cflags=$f.'d /Od -DDEBUG -D_DEBUG';
     $lflags="/nologo /subsystem:console,5.02  /opt:ref";#Gergul add ,5.02
@@ -119,7 +122,11 @@ elsif ($FLAVOR =~ /CE/)
     $base_cflags.=' -I$(WCECOMPAT)/include'		if (defined($ENV{'WCECOMPAT'}));
     $base_cflags.=' -I$(PORTSDK_LIBPATH)/../../include'	if (defined($ENV{'PORTSDK_LIBPATH'}));
     if (`$cc 2>&1` =~ /Version ([0-9]+)\./ && $1>=14) {
-	$base_cflags.=$shlib?' /MD':' /MT';
+		if ($crt) {
+			$base_cflags.='/'.$crt;
+		} else {
+			$base_cflags.=$shlib?' /MD':' /MT';
+		}
     } else {
 	$base_cflags.=' /MC';
     }
@@ -131,6 +138,9 @@ else	# Win32
     {
     $base_cflags= " $mf_cflag";
     my $f = $shlib || $fips ?' /MD':' /MT';
+	if ($crt) {
+		$f = '/'.$crt;
+	}
     $ff = "/fixed";
     $opt_cflags=$f.' /Ox /O2 /Ob2';
     $dbg_cflags=$f.'d /Od -DDEBUG -D_DEBUG';
