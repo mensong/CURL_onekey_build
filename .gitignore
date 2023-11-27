@@ -87,3 +87,16 @@
 /deps/zlib-1.2.11/contrib/vstudio/vc17/.vs
 /curl-7.60.0/build_x64/.vs
 /curl-7.60.0/build_x86/.vs
+/deps/zlib-1.2.11/contrib/masmx86/match686.lst
+/deps/zlib-1.2.11/contrib/masmx86/match686.obj
+/deps/zlib-1.2.11/contrib/masmx86/inffas32.lst
+/deps/zlib-1.2.11/contrib/masmx86/inffas32.obj
+/deps/zlib-1.2.11/contrib/vstudio/vc14/Win32
+/deps/zlib-1.2.11/contrib/vstudio/vc14/tmp
+/deps/zlib-1.2.11/contrib/vstudio/vc15/tmp
+/deps/zlib-1.2.11/contrib/vstudio/vc15/Win32
+/deps/zlib-1.2.11/contrib/vstudio/vc16/tmp
+/deps/zlib-1.2.11/contrib/vstudio/vc16/Win32
+/deps/zlib-1.2.11/contrib/vstudio/vc17/tmp
+/deps/zlib-1.2.11/contrib/vstudio/vc17/Win32
+/deps/zlib-1.2.11/out
