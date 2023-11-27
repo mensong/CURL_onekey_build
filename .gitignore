@@ -100,3 +100,7 @@
 /deps/zlib-1.2.11/contrib/vstudio/vc17/tmp
 /deps/zlib-1.2.11/contrib/vstudio/vc17/Win32
 /deps/zlib-1.2.11/out
+/curl-7.60.0/winbuild/CURL_OBJS.inc
+/curl-7.60.0/winbuild/LIBCURL_OBJS.inc
+/curl-7.60.0/builds
+/curl-7.60.0/winbuild/*.idb
