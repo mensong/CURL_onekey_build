@@ -85,3 +85,5 @@
 /deps/zlib-1.2.11/contrib/vstudio/vc16/.vs
 /deps/zlib-1.2.11/contrib/vstudio/vc17/x64
 /deps/zlib-1.2.11/contrib/vstudio/vc17/.vs
+/curl-7.60.0/build_x64/.vs
+/curl-7.60.0/build_x86/.vs
