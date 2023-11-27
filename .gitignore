@@ -104,3 +104,4 @@
 /curl-7.60.0/winbuild/LIBCURL_OBJS.inc
 /curl-7.60.0/builds
 /curl-7.60.0/winbuild/*.idb
+/deps/zlib-1.2.11/contrib/vstudio/vc14/zlibvc.VC.db
