@@ -77,3 +77,11 @@
 /deps/zlib-1.2.11/win32/zlib1.pdb
 /deps/zlib-1.2.11/win32/zlib1.res
 /deps/zlib-1.2.11/win32/zutil.obj
+/deps/openssl-1.0.2o/ms/.vs
+/deps/zlib-1.2.11/contrib/vstudio/vc15/.vs
+/deps/zlib-1.2.11/contrib/vstudio/vc15/x64
+/deps/zlib-1.2.11/contrib/vstudio/vc15/*.sdf
+/deps/zlib-1.2.11/contrib/vstudio/vc16/x64
+/deps/zlib-1.2.11/contrib/vstudio/vc16/.vs
+/deps/zlib-1.2.11/contrib/vstudio/vc17/x64
+/deps/zlib-1.2.11/contrib/vstudio/vc17/.vs

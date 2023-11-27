@@ -28,16 +28,24 @@ STATICLIB = zlib.lib
 SHAREDLIB = zlib1.dll
 IMPLIB    = zdll.lib
 
+!IF ("$(CRT)"=="MDd" || "$(CRT)"=="MTd")
+OPTIMIZE = -Oy-
+DEBUG=-debug
+!ELSE
+OPTIMIZE = -Oy
+DEBUG=
+!ENDIF
+
 CC = cl
 AS = ml
 LD = link
 SUB_SYSTEM = /subsystem:console,5.01
 AR = lib
 RC = rc
-CFLAGS  = -nologo -$(CRT) -W3 -O2 -Oy- -Zi -Fd"zlib" $(LOC)
+CFLAGS  = -nologo -$(CRT) -W3 -O2 %OPTIMIZE% -Zi -Fd"zlib" $(LOC)
 WFLAGS  = -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE
 ASFLAGS = -coff -Zi $(LOC)
-LDFLAGS = -nologo -debug -incremental:no -opt:ref
+LDFLAGS = -nologo $(DEBUG) -incremental:no -opt:ref
 ARFLAGS = -nologo
 RCFLAGS = /dWIN32 /r
 
