@@ -1,16 +1,25 @@
-Release:
-x86：
+
+x86-MT：
 nmake /f Makefile.vc mode=static RTLIBCFG=static MACHINE=x86 ENABLE_WINSSL=no ENABLE_IDN=no ENABLE_SSPI=no DEBUG=no WITH_SSL=static WITH_ZLIB=static SSL_PATH=%openssl_dir% ZLIB_PATH=%zlib_dir%
 
-x64：
-nmake /f Makefile64.vc mode=static RTLIBCFG=static MACHINE=x64 ENABLE_WINSSL=no ENABLE_IDN=no ENABLE_SSPI=no DEBUG=no WITH_SSL=static WITH_ZLIB=static SSL_PATH="%openssl_dir%" ZLIB_PATH="%zlib_dir%"
-
-
-
-
-Debug:
-x86：
+x86-MTd：
 nmake /f Makefile.vc mode=static RTLIBCFG=static MACHINE=x86 ENABLE_WINSSL=no ENABLE_IDN=no ENABLE_SSPI=no DEBUG=yes WITH_SSL=static WITH_ZLIB=static SSL_PATH=%openssl_dir% ZLIB_PATH=%zlib_dir%
 
-x64：
+x86-MD：
+nmake /f Makefile.vc mode=static MACHINE=x86 ENABLE_WINSSL=no ENABLE_IDN=no ENABLE_SSPI=no DEBUG=no WITH_SSL=static WITH_ZLIB=static SSL_PATH=%openssl_dir% ZLIB_PATH=%zlib_dir%
+
+x86-MDd：
+nmake /f Makefile.vc mode=static MACHINE=x86 ENABLE_WINSSL=no ENABLE_IDN=no ENABLE_SSPI=no DEBUG=yes WITH_SSL=static WITH_ZLIB=static SSL_PATH=%openssl_dir% ZLIB_PATH=%zlib_dir%
+
+
+x64-MT:
+nmake /f Makefile64.vc mode=static RTLIBCFG=static MACHINE=x64 ENABLE_WINSSL=no ENABLE_IDN=no ENABLE_SSPI=no DEBUG=no WITH_SSL=static WITH_ZLIB=static SSL_PATH="%openssl_dir%" ZLIB_PATH="%zlib_dir%"
+
+x64-MTd：
 nmake /f Makefile64.vc mode=static RTLIBCFG=static MACHINE=x64 ENABLE_WINSSL=no ENABLE_IDN=no ENABLE_SSPI=no DEBUG=yes WITH_SSL=static WITH_ZLIB=static SSL_PATH=%openssl_dir% ZLIB_PATH=%zlib_dir%
+
+x64-MD:
+nmake /f Makefile64.vc mode=static MACHINE=x64 ENABLE_WINSSL=no ENABLE_IDN=no ENABLE_SSPI=no DEBUG=no WITH_SSL=static WITH_ZLIB=static SSL_PATH="%openssl_dir%" ZLIB_PATH="%zlib_dir%"
+
+x64-MDd:
+nmake /f Makefile64.vc mode=static MACHINE=x64 ENABLE_WINSSL=no ENABLE_IDN=no ENABLE_SSPI=no DEBUG=yes WITH_SSL=static WITH_ZLIB=static SSL_PATH="%openssl_dir%" ZLIB_PATH="%zlib_dir%"
