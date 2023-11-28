@@ -19,4 +19,7 @@ nmake -f ms\nt.mak
 nmake -f ms\nt.mak install
 nmake -f ms\nt.mak clean
 
+::设置变量
+set openssl_dir=%outDir%
+
 popd

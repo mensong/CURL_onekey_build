@@ -15,3 +15,6 @@ copy /Y "%~dp0\*.h" "%outDir%\include\"
 mkdir "%outDir%\lib"
 copy /Y "%~dp0\contrib\vstudio\%vc_ver%\%platform%\%config%\zlibvc\zlibwapi.lib" "%outDir%\lib\"
 copy /Y "%~dp0\contrib\vstudio\%vc_ver%\%platform%\%config%\zlibstat\zlibstat.lib" "%outDir%\lib\"
+
+::…Ë÷√±‰¡ø
+set zlib_dir=%outDir%
