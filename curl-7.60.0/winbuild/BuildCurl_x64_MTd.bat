@@ -2,5 +2,5 @@
 set RTLIBCFG=static
 set DEBUG=yes
 
-call %~dp0\BuildCurl_x64.bat
+call "%~dp0\BuildCurl_x64.bat"
 

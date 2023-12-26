@@ -1,5 +1,7 @@
 pushd "%CD%"
 
+cd /d "%~dp0"
+
 ::set RTLIBCFG=static or <null>
 ::set DEBUG=yes or no
 ::set openssl_dir=openssl的路径

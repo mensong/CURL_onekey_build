@@ -1,4 +1,5 @@
 pushd "%CD%"
+cd /d "%~dp0"
 
 ::set RTLIBCFG=static or <null>
 ::set DEBUG=yes or no
