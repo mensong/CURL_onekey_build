@@ -105,3 +105,8 @@
 /curl-7.60.0/builds
 /curl-7.60.0/winbuild/*.idb
 /deps/zlib-1.2.11/contrib/vstudio/vc14/zlibvc.VC.db
+/deps/zlib-1.2.11/contrib/vstudio/vc12/zlibvc.vcxproj.user
+/deps/zlib-1.2.11/contrib/vstudio/vc12/.vs/zlibvc/v17/Browse.VC.db
+/deps/zlib-1.2.11/contrib/vstudio/vc12/.vs/zlibvc/v17/*.suo
+/deps/zlib-1.2.11/contrib/vstudio/vc12/.vs/zlibvc/v17/Solution.VC.db
+/deps/zlib-1.2.11/contrib/vstudio/vc12/.vs

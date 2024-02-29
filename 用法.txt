@@ -1,45 +1,64 @@
 1.开启VS命令行工具。注意32位与64位
 2.cd进%~dp0
 3.设置环境
-  tools\NASM\Setup.bat
-  tools\Perl\Setup.bat
+tools\NASM\Setup.bat
+tools\Perl\Setup.bat
 4.编译openssl:
-  deps\openssl-1.0.2o\BuildOpenSSL_Win32_MD.bat
-  deps\openssl-1.0.2o\BuildOpenSSL_Win32_MDd.bat
-  deps\openssl-1.0.2o\BuildOpenSSL_Win32_MT.bat
-  deps\openssl-1.0.2o\BuildOpenSSL_Win32_MTd.bat
-  deps\openssl-1.0.2o\BuildOpenSSL_x64_MD.bat
-  deps\openssl-1.0.2o\BuildOpenSSL_x64_MDd.bat
-  deps\openssl-1.0.2o\BuildOpenSSL_x64_MT.bat
-  deps\openssl-1.0.2o\BuildOpenSSL_x64_MTd.bat
+deps\openssl-1.0.2o\BuildOpenSSL_Win32_MD.bat
+deps\openssl-1.0.2o\BuildOpenSSL_Win32_MDd.bat
+deps\openssl-1.0.2o\BuildOpenSSL_Win32_MT.bat
+deps\openssl-1.0.2o\BuildOpenSSL_Win32_MTd.bat
+deps\openssl-1.0.2o\BuildOpenSSL_x64_MD.bat
+deps\openssl-1.0.2o\BuildOpenSSL_x64_MDd.bat
+deps\openssl-1.0.2o\BuildOpenSSL_x64_MT.bat
+deps\openssl-1.0.2o\BuildOpenSSL_x64_MTd.bat
 5.编译zlib:
-  deps\zlib-1.2.11\BuildZLib_Win32_Debug_vc14.bat
-  deps\zlib-1.2.11\BuildZLib_Win32_Debug_vc15.bat
-  deps\zlib-1.2.11\BuildZLib_Win32_Debug_vc16.bat
-  deps\zlib-1.2.11\BuildZLib_Win32_Debug_vc17.bat
-  deps\zlib-1.2.11\BuildZLib_Win32_Release_vc14.bat
-  deps\zlib-1.2.11\BuildZLib_Win32_Release_vc15.bat
-  deps\zlib-1.2.11\BuildZLib_Win32_Release_vc16.bat
-  deps\zlib-1.2.11\BuildZLib_Win32_Release_vc17.bat
-  deps\zlib-1.2.11\BuildZLib_x64_Debug_vc14.bat
-  deps\zlib-1.2.11\BuildZLib_x64_Debug_vc15.bat
-  deps\zlib-1.2.11\BuildZLib_x64_Debug_vc16.bat
-  deps\zlib-1.2.11\BuildZLib_x64_Debug_vc17.bat
-  deps\zlib-1.2.11\BuildZLib_x64_Release_vc14.bat
-  deps\zlib-1.2.11\BuildZLib_x64_Release_vc15.bat
-  deps\zlib-1.2.11\BuildZLib_x64_Release_vc16.bat
-  deps\zlib-1.2.11\BuildZLib_x64_Release_vc17.bat
+deps\zlib-1.2.11\BuildZLib_Win32_Debug_vc14.bat
+deps\zlib-1.2.11\BuildZLib_Win32_Debug_vc15.bat
+deps\zlib-1.2.11\BuildZLib_Win32_Debug_vc16.bat
+deps\zlib-1.2.11\BuildZLib_Win32_Debug_vc17.bat
+deps\zlib-1.2.11\BuildZLib_Win32_Release_vc14.bat
+deps\zlib-1.2.11\BuildZLib_Win32_Release_vc15.bat
+deps\zlib-1.2.11\BuildZLib_Win32_Release_vc16.bat
+deps\zlib-1.2.11\BuildZLib_Win32_Release_vc17.bat
+deps\zlib-1.2.11\BuildZLib_x64_Debug_vc14.bat
+deps\zlib-1.2.11\BuildZLib_x64_Debug_vc15.bat
+deps\zlib-1.2.11\BuildZLib_x64_Debug_vc16.bat
+deps\zlib-1.2.11\BuildZLib_x64_Debug_vc17.bat
+deps\zlib-1.2.11\BuildZLib_x64_Release_vc14.bat
+deps\zlib-1.2.11\BuildZLib_x64_Release_vc15.bat
+deps\zlib-1.2.11\BuildZLib_x64_Release_vc16.bat
+deps\zlib-1.2.11\BuildZLib_x64_Release_vc17.bat
+    
+deps\zlib-1.2.11\BuildZLib_Win32_Debug_MD_vc14.bat
+deps\zlib-1.2.11\BuildZLib_Win32_Debug_MD_vc15.bat
+deps\zlib-1.2.11\BuildZLib_Win32_Debug_MD_vc16.bat
+deps\zlib-1.2.11\BuildZLib_Win32_Debug_MD_vc17.bat
+deps\zlib-1.2.11\BuildZLib_Win32_Release_MD_vc14.bat
+deps\zlib-1.2.11\BuildZLib_Win32_Release_MD_vc15.bat
+deps\zlib-1.2.11\BuildZLib_Win32_Release_MD_vc16.bat
+deps\zlib-1.2.11\BuildZLib_Win32_Release_MD_vc17.bat
+deps\zlib-1.2.11\BuildZLib_x64_Debug_MD_vc14.bat
+deps\zlib-1.2.11\BuildZLib_x64_Debug_MD_vc15.bat
+deps\zlib-1.2.11\BuildZLib_x64_Debug_MD_vc16.bat
+deps\zlib-1.2.11\BuildZLib_x64_Debug_MD_vc17.bat
+deps\zlib-1.2.11\BuildZLib_x64_Release_MD_vc14.bat
+deps\zlib-1.2.11\BuildZLib_x64_Release_MD_vc15.bat
+deps\zlib-1.2.11\BuildZLib_x64_Release_MD_vc16.bat
+deps\zlib-1.2.11\BuildZLib_x64_Release_MD_vc17.bat
 6.编译curl:
-  curl-7.60.0\winbuild\BuildCurl_x64_MD.bat
-  curl-7.60.0\winbuild\BuildCurl_x64_MDd.bat
-  curl-7.60.0\winbuild\BuildCurl_x64_MT.bat
-  curl-7.60.0\winbuild\BuildCurl_x64_MTd.bat
-  curl-7.60.0\winbuild\BuildCurl_x86_MD.bat
-  curl-7.60.0\winbuild\BuildCurl_x86_MDd.bat
-  curl-7.60.0\winbuild\BuildCurl_x86_MT.bat
-  curl-7.60.0\winbuild\BuildCurl_x86_MTd.bat
-  
+curl-7.60.0\winbuild\BuildCurl_x64_MD.bat
+curl-7.60.0\winbuild\BuildCurl_x64_MDd.bat
+curl-7.60.0\winbuild\BuildCurl_x64_MT.bat
+curl-7.60.0\winbuild\BuildCurl_x64_MTd.bat
+curl-7.60.0\winbuild\BuildCurl_x86_MD.bat
+curl-7.60.0\winbuild\BuildCurl_x86_MDd.bat
+curl-7.60.0\winbuild\BuildCurl_x86_MT.bat
+curl-7.60.0\winbuild\BuildCurl_x86_MTd.bat
   
 编译后的使用：
-在链接的输入项中加入：Ws2_32.lib;Wldap32.lib;libcurl_a.lib;libeay32.lib;ssleay32.lib;zlibstat.lib;zlibwapi.lib
+Debug:
+在链接的输入项中加入：msvcrtd.lib;Ws2_32.lib;Wldap32.lib;libcurl_a_debug.lib;libeay32.lib;ssleay32.lib;zlibstat.lib;zlibwapi.lib
+Release:
+在链接的输入项中加入：msvcrt.lib;Ws2_32.lib;Wldap32.lib;libcurl_a.lib;libeay32.lib;ssleay32.lib;zlibstat.lib;zlibwapi.lib
 在预处理器中加入：CURL_STATICLIB
