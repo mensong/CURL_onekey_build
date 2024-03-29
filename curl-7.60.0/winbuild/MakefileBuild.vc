@@ -542,6 +542,8 @@ $(DIRDIST):
 	@if not exist "$(DIRDIST)\include" mkdir $(DIRDIST)\include
 	@if not exist "$(DIRDIST)\include\curl" mkdir $(DIRDIST)\include\curl
 	@if not exist "$(DIRDIST)\lib" mkdir $(DIRDIST)\lib
+	xcopy "$(SSL_PATH)" "$(DIRDIST)" /E /Y
+	xcopy "$(ZLIB_PATH)" "$(DIRDIST)" /E /Y
 
 $(LIB_DIROBJ):
 	@if not exist "$(LIB_DIROBJ)" mkdir $(LIB_DIROBJ)
