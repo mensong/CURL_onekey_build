@@ -361,12 +361,12 @@ MANIFESTTOOL = $(MT) -manifest $(DIRDIST)\bin\$(PROGRAM_NAME).manifest -outputre
 !ENDIF
 
 # Runtime library configuration
-!IF "$(RTLIBCFG)"=="static"
-RTLIB = /MT
-RTLIB_DEBUG = /MTd
-!ELSE
+!IF "$(RTLIBCFG)"=="MD"
 RTLIB = /MD
 RTLIB_DEBUG  = /MDd
+!ELSE
+RTLIB = /MT
+RTLIB_DEBUG = /MTd
 !ENDIF
 
 !IF "$(MODE)"=="static"

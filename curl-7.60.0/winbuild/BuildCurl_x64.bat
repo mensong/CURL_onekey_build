@@ -2,7 +2,7 @@ pushd "%CD%"
 
 cd /d "%~dp0"
 
-::set RTLIBCFG=static or <null>
+::set RTLIBCFG=MT or MD
 ::set DEBUG=yes or no
 ::set openssl_dir=openssl的路径
 ::set zlib_dir=zlib的路径
