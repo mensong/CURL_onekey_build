@@ -5,9 +5,9 @@
 
 rem ±‡“Îzlib
 set zlibstat_vcxproj=%~dp0\contrib\vstudio\%vc_ver%\zlibstat.vcxproj
-devenv "%zlibstat_vcxproj%" /build "%config%|%platform%" /project "%zlibstat_vcxproj%"
+devenv.exe "%zlibstat_vcxproj%" /build "%config%|%platform%" /project "%zlibstat_vcxproj%"
 set zlibvc_vcxproj=%~dp0\contrib\vstudio\%vc_ver%\zlibvc.vcxproj
-devenv "%zlibvc_vcxproj%" /build "%config%|%platform%" /project "%zlibvc_vcxproj%"
+devenv.exe "%zlibvc_vcxproj%" /build "%config%|%platform%" /project "%zlibvc_vcxproj%"
 
 set outDir=%~dp0\out\%vc_ver%\%platform%\%config%
 mkdir "%outDir%\include"
