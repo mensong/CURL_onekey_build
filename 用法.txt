@@ -1,8 +1,8 @@
+
 1.开启VS命令行工具。注意32位与64位
-2.cd进%~dp0
-3.设置环境
-tools\NASM\Setup.bat
-tools\Perl\Setup.bat
+
+2.执行
+Init.bat
 
 4.编译openssl:
 deps\openssl-1.0.2o\BuildOpenSSL_Win32_MD.bat
