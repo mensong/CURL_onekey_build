@@ -57,8 +57,10 @@ curl-7.60.0\winbuild\BuildCurl_x86_MD.bat
 curl-7.60.0\winbuild\BuildCurl_x86_MDd.bat
 curl-7.60.0\winbuild\BuildCurl_x86_MT.bat
 curl-7.60.0\winbuild\BuildCurl_x86_MTd.bat
-  
-编译后的使用：
+
+7.编译结果位于：curl-7.60.0\builds
+
+8.编译后的使用：
 Debug:
 在链接的输入项中加入：Ws2_32.lib;Wldap32.lib;libcurl_a_debug.lib;libeay32.lib;ssleay32.lib;zlibstat.lib;zlibwapi.lib
 Release:
